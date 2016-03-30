@@ -7,15 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NewTile.h"
 #import "TestView.h"
+@import GoogleMaps;
+#import "FMDB.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GMSMapViewDelegate>
 {
     UIView *drawImage;
     CGPoint startPoint;
 }
 
 @property (strong, nonatomic) TestView *NewView;
+@property (weak, nonatomic) IBOutlet UIButton *btnDrawing;
 
 //- (void)intializeDrawImage;
 

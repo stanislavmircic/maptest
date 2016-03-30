@@ -16,6 +16,7 @@
 		9DAD1F321C6ABBD40056BCD0 /* NewTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD1F311C6ABBD40056BCD0 /* NewTile.m */; };
 		9DAD1F361C6ABDED0056BCD0 /* AustralianFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DAD1F351C6ABDED0056BCD0 /* AustralianFlag.png */; };
 		9DAD1F391C70DF120056BCD0 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAD1F381C70DF120056BCD0 /* TestView.m */; };
+		9DE24AC61C9A189B003605B7 /* GoogleMapsProjectTestDB.db in Resources */ = {isa = PBXBuildFile; fileRef = 9DE24AC51C9A1807003605B7 /* GoogleMapsProjectTestDB.db */; };
 		E4439299A821E522B3C86FBB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E9D62C36A1455A72CA7D87B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		9DAD1F351C6ABDED0056BCD0 /* AustralianFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AustralianFlag.png; sourceTree = "<group>"; };
 		9DAD1F371C70DF120056BCD0 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		9DAD1F381C70DF120056BCD0 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		9DE24AC51C9A1807003605B7 /* GoogleMapsProjectTestDB.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = GoogleMapsProjectTestDB.db; sourceTree = "<group>"; };
 		EA1B281FA71FD830C58E9A06 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 		9DAD1F181C5F38C30056BCD0 /* GoogleMapsProjectTest */ = {
 			isa = PBXGroup;
 			children = (
+				9DE24AC51C9A1807003605B7 /* GoogleMapsProjectTestDB.db */,
 				9DAD1F1C1C5F38C30056BCD0 /* AppDelegate.h */,
 				9DAD1F1D1C5F38C30056BCD0 /* AppDelegate.m */,
 				9DAD1F1F1C5F38C30056BCD0 /* ViewController.h */,
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE24AC61C9A189B003605B7 /* GoogleMapsProjectTestDB.db in Resources */,
 				9DAD1F291C5F38C30056BCD0 /* LaunchScreen.storyboard in Resources */,
 				9DAD1F261C5F38C30056BCD0 /* Assets.xcassets in Resources */,
 				9DAD1F241C5F38C30056BCD0 /* Main.storyboard in Resources */,

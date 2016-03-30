@@ -1,10 +1,15 @@
 PODS:
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
   - GoogleMaps (1.11.1)
 
 DEPENDENCIES:
+  - FMDB
   - GoogleMaps
 
 SPEC CHECKSUMS:
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
   GoogleMaps: c947160008f414c66707a5ea60f35e92055c7670
 
 COCOAPODS: 0.39.0

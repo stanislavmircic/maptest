@@ -10,38 +10,26 @@
 
 @implementation TestView
 {
-    UIBezierPath *path; // (3)
+    UIBezierPath *path;
 }
-
-//- (id)initWithCoder:(NSCoder *)aDecoder // (1)
-//{
-//    if (self = [super initWithCoder:aDecoder])
-//    {
-//        [self setMultipleTouchEnabled:NO]; // (2)
-//        [self setBackgroundColor:[UIColor whiteColor]];
-//        path = [UIBezierPath bezierPath];
-//        [path setLineWidth:2.0];
-//    }
-//    return self;
-//}
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
-    [self setMultipleTouchEnabled:NO]; // (2)
+    [self setMultipleTouchEnabled:NO];
     [self setOpaque:NO];
     [self setBackgroundColor:[UIColor clearColor]];
     path = [UIBezierPath bezierPath];
     [path setLineWidth:2.0];
+    
     return self;
 }
 
-- (void)drawRect:(CGRect)rect // (5)
+- (void)drawRect:(CGRect)rect
 {
-    [[UIColor blackColor] setStroke];
+    [[UIColor blueColor] setStroke];
     [path stroke];
 }
-
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -54,7 +42,7 @@
 {
     UITouch *touch = [touches anyObject];
     CGPoint p = [touch locationInView:self];
-    [path addLineToPoint:p]; // (4)
+    [path addLineToPoint:p];
     [self setNeedsDisplay];
 }
 
